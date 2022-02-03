@@ -1,0 +1,144 @@
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    font-size: 30px;
+}
+
+.navbar-brand {
+    align-self: center;
+    margin-left: 5%
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    margin-right: 20px
+}
+
+li {
+    display: flex;
+    margin-right: 20px
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: rgb(64, 200, 218);
+}
+h1 {
+    color: white;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15%;
+    padding-bottom: 5%
+}
+
+#actors {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+h4, h6 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 5px;
+}
+
+button {
+    margin-bottom: 10px;
+    margin-left: 40%;
+    padding: 10px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white
+}
+
+.img {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    box-shadow: white;
+    border-radius: 5px;
+
+}
+
+.date {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.356);
+    margin-bottom: 10px
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 5px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.maping {
+    height: 300px;
+}
+
+.location {
+    text-align: center;
+    font-size: 30px;
+}
+
+.foothead {
+    font-size: 35px;
+}
+
+.media {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none
+}
+
+.shows {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.info {
+    font-size: 20px
+}
